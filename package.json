@@ -1,0 +1,25 @@
+{
+  "name": "wallet",
+  "author": "Yulia/David",
+  "version": "1.0.0",
+  "description": "An express sample implementing the TrueLayer javascript client",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^6.0.0",
+    "envalid": "^3.0.0",
+    "express": "^4.15.3",
+    "morgan": "^1.9.1",
+    "truelayer-client": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm run test",
+    "lint": "eslint --fix --format verbose *.js",
+    "clean": "git clean -xdf"
+  }
+}
